@@ -1,0 +1,10 @@
+*.net
+*.bak
+*~
+*.sch-1
+*.raw
+*.fft
+*.log
+/*.pdf
+/*.png
+/#*#
