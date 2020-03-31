@@ -9,9 +9,9 @@ Grid[0.1000mm 0.0000 0.0000 1]
 PolyArea[3100.006200]
 Thermal[0.500000]
 DRC[0.1200mm 10.00mil 0.1500mm 10.00mil 15.00mil 10.00mil]
-Flags("showdrc,nameonpcb,clearnew")
+Flags("showdrc,nameonpcb,alldirection,clearnew")
 Groups("1,c:2:3:4:5:6,s:7:8")
-Styles["Signal,0.2000mm,0.7000mm,0.3000mm,0.2000mm:Power,0.2800mm,0.9000mm,0.5000mm,0.2000mm:Fat,0.5000mm,5.5000mm,3.0000mm,0.2000mm:Skinny,0.1500mm,0.4500mm,0.2000mm,0.2300mm"]
+Styles["Signal,0.2000mm,0.7000mm,0.3000mm,0.2000mm:Power,0.2800mm,0.9000mm,0.5000mm,0.2000mm:Fat,1.0000mm,5.5000mm,3.0000mm,0.2500mm:Skinny,0.1500mm,0.4500mm,0.2000mm,0.1800mm"]
 Symbol[' ' 18.00mil]
 (
 )
@@ -940,7 +940,7 @@ Via[32.5000mm 41.1000mm 0.4500mm 0.2600mm 0.0000 0.2000mm "" ""]
 Via[34.3000mm 40.1000mm 0.4500mm 0.2600mm 0.0000 0.2000mm "" "thermal(1S,2S,5S)"]
 Via[58.2000mm 60.2000mm 0.4500mm 0.2600mm 0.0000 0.2000mm "" "thermal(1S,2S,5S)"]
 Via[58.2000mm 61.2000mm 0.4500mm 0.2600mm 0.0000 0.2000mm "" "thermal(1S,2S,5S)"]
-Via[58.2000mm 62.2000mm 0.4500mm 0.2600mm 0.0000 0.2000mm "" "thermal(1S,2S,5S)"]
+Via[58.7000mm 62.3000mm 0.4500mm 0.2600mm 0.0000 0.2000mm "" "thermal(1S,2S,5S)"]
 Via[54.2000mm 61.2000mm 0.4500mm 0.2600mm 0.0000 0.2000mm "" "thermal(1S,2S,5S)"]
 Via[56.2000mm 61.2000mm 0.4500mm 0.2600mm 0.0000 0.2000mm "" "thermal(1S,2S,5S)"]
 Via[52.2000mm 61.2000mm 0.4500mm 0.2600mm 0.0000 0.2000mm "" "thermal(1S,2S,5S)"]
@@ -1113,13 +1113,12 @@ Via[46.2000mm 55.2000mm 0.4500mm 0.2600mm 0.0000 0.2000mm "" ""]
 Via[45.2000mm 58.2000mm 0.4500mm 0.2600mm 0.0000 0.2000mm "" ""]
 Via[46.2000mm 58.2000mm 0.4500mm 0.2600mm 0.0000 0.2000mm "" ""]
 Via[28.2000mm 69.8000mm 0.7000mm 0.0000 0.0000 0.3000mm "" "thermal(0S)"]
-Via[30.4000mm 69.8000mm 0.7000mm 0.0000 0.0000 0.3000mm "" "thermal(0S)"]
+Via[30.4000mm 69.9000mm 0.7000mm 0.0000 0.0000 0.3000mm "" "thermal(0S)"]
 Via[30.5000mm 71.0000mm 0.7000mm 0.0000 0.0000 0.3000mm "" "thermal(0S)"]
 Via[35.0000mm 71.1000mm 0.7000mm 0.0000 0.0000 0.3000mm "" "thermal(0S)"]
 Via[37.4000mm 71.3000mm 0.7000mm 0.0000 0.0000 0.3000mm "" "thermal(0S)"]
 Via[39.7000mm 69.8000mm 0.7000mm 0.0000 0.0000 0.3000mm "" "thermal(0S)"]
 Via[39.7000mm 71.1000mm 0.7000mm 0.0000 0.0000 0.3000mm "" "thermal(0S)"]
-Via[28.1000mm 71.1000mm 0.7000mm 0.0000 0.0000 0.3000mm "" "thermal(0S)"]
 Via[50.2000mm 44.2000mm 0.4500mm 0.2600mm 0.0000 0.2000mm "" "thermal(1S,2S,5S)"]
 Via[48.2000mm 52.2000mm 0.4500mm 0.2600mm 0.0000 0.2000mm "" "thermal(1S,2S,5S)"]
 Via[56.2000mm 49.2000mm 0.4500mm 0.0000 0.0000 0.2000mm "" ""]
@@ -1217,7 +1216,7 @@ Via[45.8000mm 62.6000mm 0.7000mm 0.0000 0.0000 0.3000mm "" "thermal(0S)"]
 Via[46.7000mm 62.6000mm 0.7000mm 0.0000 0.0000 0.3000mm "" "thermal(0S)"]
 Via[43.4000mm 63.3000mm 0.4500mm 0.4000mm 0.0000 0.2000mm "" ""]
 Via[60.9000mm 62.8000mm 0.7000mm 0.3000mm 0.0000 0.3000mm "" ""]
-Via[61.0000mm 63.6000mm 0.4500mm 0.2600mm 0.0000 0.2000mm "" "thermal(1S,2S,5S)"]
+Via[61.6000mm 63.9000mm 0.4500mm 0.2600mm 0.0000 0.2000mm "" "thermal(1S,2S,5S)"]
 Via[59.2000mm 61.2000mm 0.4500mm 0.4000mm 0.0000 0.2000mm "" ""]
 Via[46.1000mm 69.2000mm 0.7000mm 0.0000 0.0000 0.3000mm "" "thermal(0S)"]
 Via[47.7000mm 69.2000mm 0.7000mm 0.0000 0.0000 0.3000mm "" "thermal(0S)"]
@@ -1600,6 +1599,16 @@ Via[64.2000mm 50.2000mm 0.4500mm 0.4000mm 0.0000 0.2000mm "" ""]
 Via[67.2000mm 52.2000mm 0.4500mm 0.4000mm 0.0000 0.2000mm "" ""]
 Via[67.2000mm 50.2000mm 0.4500mm 0.4000mm 0.0000 0.2000mm "" ""]
 Via[68.2000mm 50.2000mm 0.4500mm 0.4000mm 0.0000 0.2000mm "" ""]
+Via[82.8000mm 67.5000mm 0.4500mm 0.4000mm 0.0000 0.2000mm "" ""]
+Via[79.6000mm 67.5000mm 0.4500mm 0.4000mm 0.0000 0.2000mm "" ""]
+Via[79.6000mm 73.0000mm 0.4500mm 0.4000mm 0.0000 0.2000mm "" ""]
+Via[81.1000mm 73.0000mm 0.4500mm 0.4000mm 0.0000 0.2000mm "" ""]
+Via[79.5000mm 66.6000mm 0.7000mm 0.0000 0.0000 0.3000mm "" ""]
+Via[82.9000mm 66.6000mm 0.7000mm 0.0000 0.0000 0.3000mm "" ""]
+Via[79.6000mm 73.7000mm 0.4500mm 0.0000 0.0000 0.2000mm "" ""]
+Via[81.2000mm 73.7000mm 0.4500mm 0.0000 0.0000 0.2000mm "" ""]
+Via[61.9000mm 63.2000mm 0.4500mm 0.3600mm 0.0000 0.2000mm "" ""]
+Via[57.2000mm 37.2000mm 0.4500mm 0.3600mm 0.0000 0.2000mm "" ""]
 
 Element["hidename,onsolder" "0603" "R23" "240" 31.4000mm 39.2000mm 0.1000mm -1.2000mm 1 100 "onsolder"]
 (
@@ -2108,10 +2117,10 @@ Element["hidename,onsolder" "0805" "C216" "22u" 31.6000mm 69.0000mm -1.0000mm -2
 
 	)
 
-Element["hidename,onsolder" "0805" "C205" "22u" 29.3000mm 69.6000mm -1.0000mm -2.0000mm 0 82 "onsolder"]
+Element["hidename,onsolder" "0805" "C205" "22u" 28.3000mm 68.6000mm 2.0000mm -1.0000mm 1 82 "onsolder"]
 (
-	Pad[-0.1500mm 1.0500mm 0.1500mm 1.0500mm 1.3000mm 0.0000 1.3000mm "1" "1" "onsolder,square"]
-	Pad[-0.1500mm -1.0500mm 0.1500mm -1.0500mm 1.3000mm 0.6000mm 1.4000mm "2" "2" "onsolder,square"]
+	Pad[-1.0500mm -0.1500mm -1.0500mm 0.1500mm 1.3000mm 0.0000 1.3000mm "1" "1" "onsolder,square"]
+	Pad[1.0500mm -0.1500mm 1.0500mm 0.1500mm 1.3000mm 0.6000mm 1.4000mm "2" "2" "onsolder,square"]
 
 	)
 
@@ -2648,7 +2657,7 @@ Element["hidename" "QFN24_4_EP" "U4" "unknown" 66.0500mm 30.5500mm -0.3536mm 0.1
 	Pad[-2.4000mm 0.2500mm -1.7000mm 0.2500mm 11.02mil 20.00mil 15.27mil "RESETB" "22" "square"]
 	Pad[-2.4000mm 0.7500mm -1.7000mm 0.7500mm 11.02mil 20.00mil 15.27mil "VDD18" "23" "square"]
 	Pad[-2.4000mm 1.2500mm -1.7000mm 1.2500mm 11.02mil 20.00mil 15.27mil "STP" "24" "square"]
-	Pad[0.0000 0.0000 0.0000 0.0000 82.67mil 0.0000 2.2498mm "" "25" "square,edge2"]
+	Pad[0.0000 0.0000 0.0000 0.0000 82.67mil 0.0000 2.2498mm "" "25" "square,warn,edge2"]
 	ElementLine [-2.7000mm -2.7000mm 2.7000mm -2.7000mm 10.00mil]
 	ElementLine [-2.7000mm -2.7000mm -2.7039mm 2.7039mm 10.00mil]
 	ElementLine [2.7000mm -2.7000mm 2.7000mm 2.7000mm 10.00mil]
@@ -3054,13 +3063,6 @@ Element["hidename,onsolder" "0603" "C280" "10u" 58.0000mm 40.0000mm 0.1000mm -1.
 
 	)
 
-Element["hidename,onsolder" "0603" "C281" "10u" 60.3000mm 62.0000mm -0.1000mm 1.2000mm 3 100 "onsolder"]
-(
-	Pad[0.7299mm -0.1795mm 0.7473mm -0.0810mm 0.9000mm 0.6000mm 1.0000mm "1" "1" "onsolder,square"]
-	Pad[-0.7473mm 0.0810mm -0.7299mm 0.1795mm 0.9000mm 0.0000 1.0000mm "2" "2" "onsolder,square,edge2"]
-
-	)
-
 Element["hidename,onsolder" "0603" "C282" "22u" 58.1000mm 49.9000mm -0.1000mm 1.2000mm 3 100 "onsolder"]
 (
 	Pad[-0.0500mm 0.7500mm 0.0500mm 0.7500mm 0.9000mm 0.0000 0.9000mm "1" "1" "onsolder,square"]
@@ -3236,10 +3238,10 @@ Element["hidename,onsolder" "0402" "R215" "47" 67.5000mm 27.0000mm -0.0500mm 0.0
 
 Element["hidename" "tcxo3225" "U205" "unknown" 56.6000mm 30.4000mm 0.0000 0.0000 3 100 ""]
 (
-	Pad[0.9000mm -1.3000mm 0.9000mm -1.3000mm 1.4000mm 0.6000mm 2.0000mm "Vdd" "4" "square,edge2"]
-	Pad[0.9000mm 1.3000mm 0.9000mm 1.3000mm 1.4000mm 0.6000mm 2.0000mm "OUT" "3" "square,edge2"]
-	Pad[-1.0000mm 1.3000mm -1.0000mm 1.3000mm 1.4000mm 0.6000mm 2.0000mm "GND" "2" "square"]
-	Pad[-1.0000mm -1.3000mm -1.0000mm -1.3000mm 1.4000mm 0.6000mm 2.0000mm "Vcont" "1" "square"]
+	Pad[0.9000mm -1.3000mm 0.9000mm -1.3000mm 1.4000mm 0.6000mm 1.5500mm "Vdd" "4" "square,edge2"]
+	Pad[0.9000mm 1.3000mm 0.9000mm 1.3000mm 1.4000mm 0.6000mm 1.5500mm "OUT" "3" "square,edge2"]
+	Pad[-1.0000mm 1.3000mm -1.0000mm 1.3000mm 1.4000mm 0.6000mm 1.5500mm "GND" "2" "square"]
+	Pad[-1.0000mm -1.3000mm -1.0000mm -1.3000mm 1.4000mm 0.6000mm 1.5000mm "Vcont" "1" "square"]
 	ElementLine [1.2000mm -0.4000mm 1.2000mm 0.4000mm 0.3000mm]
 	ElementLine [-0.2000mm -1.6000mm 0.1000mm -1.6000mm 0.3000mm]
 	ElementLine [-0.2000mm 1.6000mm 0.1000mm 1.6000mm 0.3000mm]
@@ -3251,7 +3253,7 @@ Element["hidename" "0805usb" "T210" "unknown" 56.4000mm 33.8000mm -1.8000mm 0.40
 (
 	Pad[-1.2000mm -0.5000mm -0.8000mm -0.5000mm 0.6000mm 0.6000mm 0.7500mm "2" "2" "square"]
 	Pad[-1.2000mm 0.5000mm -0.8000mm 0.5000mm 0.6000mm 0.6000mm 0.7500mm "4" "4" "square"]
-	Pad[0.8000mm 0.5000mm 1.2000mm 0.5000mm 0.6000mm 0.6000mm 0.7500mm "3" "3" "square,edge2"]
+	Pad[0.8000mm 0.5000mm 1.2000mm 0.5000mm 0.6000mm 0.6000mm 0.6500mm "3" "3" "square,edge2"]
 	Pad[0.8000mm -0.5000mm 1.2000mm -0.5000mm 0.6000mm 0.6000mm 0.7500mm "1" "1" "square,edge2"]
 	ElementLine [-0.3000mm -0.6000mm 0.3000mm -0.6000mm 0.2000mm]
 	ElementLine [-0.3000mm 0.6000mm 0.3000mm 0.6000mm 0.2000mm]
@@ -3471,7 +3473,7 @@ Element["hidename,onsolder" "0402" "R15" "22k" 63.6000mm 27.8000mm -0.0086mm 0.1
 Element["hidename,onsolder" "0603" "C306" "22u" 56.8754mm 1241.70mil 1.1246mm 0.0607mm 2 100 "onsolder"]
 (
 	Pad[0.5857mm -0.4711mm 0.6430mm -0.3892mm 0.9000mm 0.6000mm 1.0000mm "1" "1" "onsolder,square"]
-	Pad[-0.6430mm 0.3892mm -0.5857mm 0.4711mm 0.9000mm 0.0000 1.0000mm "2" "2" "onsolder,square,edge2"]
+	Pad[-0.6430mm 0.3892mm -0.5857mm 0.4711mm 0.9000mm 0.0000 0.9000mm "2" "2" "onsolder,square,edge2"]
 
 	)
 
@@ -4554,6 +4556,122 @@ Element["hidename,onsolder" "0805_s" "L203" "fb" 60.4000mm 55.9000mm 1.0648mm 0.
 	Pad[-0.1500mm -0.8500mm 0.0500mm -0.8500mm 1.1000mm 0.6000mm 1.1500mm "2" "2" "onsolder,square"]
 
 	)
+
+Element["hidename,onsolder" "connector4_1_25mm" "CONN211" "unknown" 71.9000mm 80.1000mm 0.6000mm -5.6000mm 1 100 "onsolder"]
+(
+	Pin[0.0000 0.0000 1.0000mm 0.6000mm 1.1024mm 0.6000mm "1" "1" "thermal(0X)"]
+	Pin[1.2500mm 0.0000 1.0000mm 0.6000mm 1.1024mm 0.6000mm "2" "2" "thermal(0X)"]
+	Pin[2.5000mm 0.0000 1.0000mm 0.6000mm 1.1024mm 0.6000mm "3" "3" ""]
+	Pin[3.7500mm 0.0000 1.0000mm 0.6000mm 1.1024mm 0.6000mm "4" "4" ""]
+	ElementLine [-1.6000mm -7.0000mm 5.4000mm -7.0000mm 0.3000mm]
+	ElementLine [-1.6000mm 0.9000mm 5.4000mm 0.9000mm 0.3000mm]
+	ElementLine [-1.6000mm -7.0000mm -1.6000mm 0.9000mm 0.3000mm]
+	ElementLine [5.4000mm -7.0000mm 5.4000mm 0.9000mm 0.3000mm]
+
+	)
+
+Element["hidename,onsolder" "0603" "L205" "rffb" 82.0000mm 69.9000mm -0.1000mm 1.2000mm 3 100 "onsolder"]
+(
+	Pad[-0.0500mm 0.7500mm 0.0500mm 0.7500mm 0.9000mm 0.6000mm 1.0000mm "1" "1" "onsolder,square"]
+	Pad[-0.0500mm -0.7500mm 0.0500mm -0.7500mm 0.9000mm 0.6000mm 1.0000mm "2" "2" "onsolder,square"]
+
+	)
+
+Element["hidename,onsolder" "0603" "C309" "47n" 80.4000mm 66.9000mm -0.1000mm 1.2000mm 3 100 "onsolder"]
+(
+	Pad[-0.0500mm 0.7500mm 0.0500mm 0.7500mm 0.9000mm 0.6000mm 1.0000mm "1" "1" "onsolder,square"]
+	Pad[-0.0500mm -0.7500mm 0.0500mm -0.7500mm 0.9000mm 0.0000 1.0000mm "2" "2" "onsolder,square"]
+
+	)
+
+Element["hidename,onsolder" "0603" "C310" "47n" 82.0000mm 66.9000mm -0.1000mm 1.2000mm 3 100 "onsolder"]
+(
+	Pad[-0.0500mm 0.7500mm 0.0500mm 0.7500mm 0.9000mm 0.6000mm 1.0000mm "1" "1" "onsolder,square"]
+	Pad[-0.0500mm -0.7500mm 0.0500mm -0.7500mm 0.9000mm 0.0000 1.0000mm "2" "2" "onsolder,square"]
+
+	)
+
+Element["hidename,onsolder" "0603" "L204" "rffb" 80.4000mm 69.9000mm -0.1000mm 1.2000mm 3 100 "onsolder"]
+(
+	Pad[-0.0500mm 0.7500mm 0.0500mm 0.7500mm 0.9000mm 0.6000mm 1.0000mm "1" "1" "onsolder,square"]
+	Pad[-0.0500mm -0.7500mm 0.0500mm -0.7500mm 0.9000mm 0.6000mm 1.0000mm "2" "2" "onsolder,square"]
+
+	)
+
+Element["hidename,onsolder" "0402" "R217" "33" 81.8000mm 72.5000mm -0.0500mm -0.0500mm 3 100 "onsolder"]
+(
+	Pad[0.0000 -0.5500mm 0.0000 -0.4500mm 0.5000mm 20.00mil 0.5580mm "1" "1" "onsolder,square"]
+	Pad[0.0000 0.4500mm 0.0000 0.5500mm 0.5000mm 20.00mil 0.5580mm "2" "2" "onsolder,square,edge2"]
+
+	)
+
+Element["hidename,onsolder" "0402" "R216" "33" 80.2000mm 72.5000mm -0.0500mm -0.0500mm 3 100 "onsolder"]
+(
+	Pad[0.0000 -0.5500mm 0.0000 -0.4500mm 0.5000mm 20.00mil 0.5580mm "1" "1" "onsolder,square"]
+	Pad[0.0000 0.4500mm 0.0000 0.5500mm 0.5000mm 20.00mil 0.5580mm "2" "2" "onsolder,square,edge2"]
+
+	)
+
+Element["hidename,onsolder" "audio_3.5mm" "CONN212" "unknown" 18.8000mm 71.8000mm -1.1000mm 1.6000mm 3 100 "onsolder"]
+(
+	Pin[-7.1000mm -3.7000mm 0.7000mm 0.4000mm 0.8524mm 0.3000mm "1" "1" "edge2"]
+	Pin[-0.1000mm -3.7000mm 0.7000mm 0.4000mm 0.8524mm 0.3000mm "3" "3" "edge2"]
+	Pin[-5.1000mm 1.1000mm 0.7000mm 0.4000mm 0.8524mm 0.3000mm "2" "2" "edge2"]
+	Pad[-0.5000mm -3.7000mm 0.3000mm -3.7000mm 1.4000mm 0.6000mm 1.8000mm "3" "3" "onsolder,edge2"]
+	Pad[-5.5000mm 1.1000mm -4.7000mm 1.1000mm 1.4000mm 0.6000mm 1.8000mm "2" "2" "onsolder"]
+	Pad[-7.5000mm -3.7000mm -6.7000mm -3.7000mm 1.4000mm 0.6000mm 1.8000mm "1" "1" "onsolder"]
+	Pad[-7.5000mm -3.7000mm -6.7000mm -3.7000mm 1.4000mm 0.4000mm 1.8000mm "1" "1" ""]
+	Pad[-5.5000mm 1.1000mm -4.7000mm 1.1000mm 1.4000mm 0.4000mm 1.8000mm "2" "2" ""]
+	Pad[-0.5000mm -3.7000mm 0.3000mm -3.7000mm 1.4000mm 0.4000mm 1.8000mm "3" "3" "edge2"]
+	ElementLine [-9.3000mm -3.3000mm -9.3000mm 0.7000mm 0.2000mm]
+	ElementLine [-9.2000mm -4.3000mm 2.1000mm -4.3000mm 0.2000mm]
+	ElementLine [2.1000mm -4.3000mm 2.1000mm 1.7000mm 0.2000mm]
+	ElementLine [-9.2000mm 1.7000mm 2.1000mm 1.7000mm 0.2000mm]
+	ElementLine [-9.2000mm -4.3000mm -9.2000mm 1.7000mm 0.2000mm]
+	ElementLine [-5.5000mm 0.8000mm -4.7000mm 0.8000mm 0.2000mm]
+	ElementLine [-5.5000mm 1.4000mm -4.7000mm 1.4000mm 0.2000mm]
+	ElementLine [-0.5000mm -4.0000mm 0.3000mm -4.0000mm 0.2000mm]
+	ElementLine [-0.5000mm -3.4000mm 0.3000mm -3.4000mm 0.2000mm]
+	ElementLine [-7.5000mm -4.0000mm -6.7000mm -4.0000mm 0.2000mm]
+	ElementLine [-7.5000mm -3.4000mm -6.7000mm -3.4000mm 0.2000mm]
+	ElementArc [-5.5000mm 1.1000mm 0.3000mm 0.3000mm 270.000000 90.000000 0.2000mm]
+	ElementArc [-5.5000mm 1.1000mm 0.3000mm 0.3000mm 0.000000 90.000000 0.2000mm]
+	ElementArc [-4.7000mm 1.1000mm 0.3000mm 0.3000mm 180.000000 90.000000 0.2000mm]
+	ElementArc [-4.7000mm 1.1000mm 0.3000mm 0.3000mm 90.000000 90.000000 0.2000mm]
+	ElementArc [-0.5000mm -3.7000mm 0.3000mm 0.3000mm 270.000000 90.000000 0.2000mm]
+	ElementArc [-0.5000mm -3.7000mm 0.3000mm 0.3000mm 0.000000 90.000000 0.2000mm]
+	ElementArc [0.3000mm -3.7000mm 0.3000mm 0.3000mm 180.000000 90.000000 0.2000mm]
+	ElementArc [0.3000mm -3.7000mm 0.3000mm 0.3000mm 90.000000 90.000000 0.2000mm]
+	ElementArc [-7.5000mm -3.7000mm 0.3000mm 0.3000mm 270.000000 90.000000 0.2000mm]
+	ElementArc [-7.5000mm -3.7000mm 0.3000mm 0.3000mm 0.000000 90.000000 0.2000mm]
+	ElementArc [-6.7000mm -3.7000mm 0.3000mm 0.3000mm 180.000000 90.000000 0.2000mm]
+	ElementArc [-6.7000mm -3.7000mm 0.3000mm 0.3000mm 90.000000 90.000000 0.2000mm]
+
+	)
+
+Element["hidename,onsolder" "0603" "C281" "10u" 60.2000mm 61.6000mm -1.2000mm -0.1000mm 0 100 "onsolder"]
+(
+	Pad[-0.2424mm 0.7115mm -0.1458mm 0.7374mm 0.9000mm 0.6000mm 1.0000mm "1" "1" "onsolder,square,edge2"]
+	Pad[0.1458mm -0.7374mm 0.2424mm -0.7115mm 0.9000mm 0.0000 1.0000mm "2" "2" "onsolder,square"]
+
+	)
+
+Element["hidename,onsolder" "0402" "R219" "100" 61.8000mm 62.5000mm 0.0122mm -0.0428mm 1 100 "onsolder"]
+(
+	Pad[-0.4505mm -12.42mil -0.3686mm -0.2581mm 0.5000mm 20.00mil 0.5580mm "1" "1" "onsolder,square"]
+	Pad[0.3686mm 0.2581mm 0.4505mm 0.3155mm 0.5000mm 20.00mil 0.5580mm "2" "2" "onsolder,square,edge2"]
+
+	)
+
+Element["hidename,onsolder" "0402" "R218" "100" 55.9000mm 35.8000mm 0.0500mm -0.0500mm 0 100 "onsolder"]
+(
+	Pad[0.3182mm -0.3182mm 0.3889mm -0.3889mm 0.5000mm 20.00mil 0.5580mm "1" "1" "onsolder,square"]
+	Pad[-0.3889mm 0.3889mm -0.3182mm 0.3182mm 0.5000mm 20.00mil 0.5580mm "2" "2" "onsolder,square,edge2"]
+
+	)
+Rat[27.2500mm 68.4500mm 5 11.7000mm 68.1000mm 5  ""]
+Rat[74.4000mm 80.1000mm 0 13.7000mm 72.9000mm 5  ""]
+Rat[75.2000mm 76.0000mm 0 19.1000mm 68.1000mm 0  ""]
 Layer(1 "top" "copper")
 (
 	Line[43.0000mm 41.7000mm 43.7000mm 41.7000mm 0.2800mm 0.5000mm "clearline"]
@@ -4991,7 +5109,7 @@ Layer(1 "top" "copper")
 	Line[56.7000mm 57.7000mm 56.2000mm 57.2000mm 0.2800mm 0.3000mm "clearline"]
 	Line[58.2000mm 58.2000mm 57.7000mm 58.7000mm 0.2800mm 0.3000mm "clearline"]
 	Line[58.2000mm 60.2000mm 58.7000mm 59.7000mm 0.2800mm 0.3000mm "clearline"]
-	Line[58.2000mm 62.2000mm 58.7000mm 61.7000mm 0.2800mm 0.3000mm "clearline"]
+	Line[58.7000mm 62.3000mm 58.7000mm 61.7000mm 0.2800mm 0.3000mm "clearline"]
 	Line[50.7000mm 61.7000mm 50.7000mm 62.3000mm 0.2800mm 0.3000mm "clearline"]
 	Line[52.7000mm 61.7000mm 52.2000mm 61.2000mm 0.2800mm 0.3000mm "clearline"]
 	Line[54.7000mm 61.7000mm 54.2000mm 61.2000mm 0.2800mm 0.3000mm "clearline"]
@@ -5974,7 +6092,7 @@ Layer(1 "top" "copper")
 	Line[34.9000mm 29.5000mm 31.2000mm 33.2000mm 3.0000mm 0.5000mm "clearline"]
 	Line[35.1000mm 29.7000mm 35.1000mm 27.8000mm 3.0000mm 0.5000mm "clearline"]
 	Line[35.1000mm 27.8000mm 39.3000mm 23.6000mm 3.0000mm 0.5000mm "clearline"]
-	Line[74.6000mm 59.3000mm 72.9000mm 59.3000mm 0.2500mm 0.3000mm "clearline"]
+	Line[74.6000mm 59.3000mm 72.3000mm 59.3000mm 0.2500mm 0.3000mm "clearline"]
 	Line[74.6000mm 57.8000mm 72.9000mm 57.8000mm 0.2500mm 0.3000mm "clearline"]
 	Line[74.6000mm 56.8000mm 72.9000mm 56.8000mm 0.2500mm 0.3000mm "clearline"]
 	Line[74.6000mm 55.8000mm 72.9000mm 55.8000mm 0.2500mm 0.3000mm "clearline"]
@@ -6149,6 +6267,30 @@ Layer(1 "top" "copper")
 	Line[67.2000mm 52.2000mm 67.7000mm 51.7000mm 0.2000mm 0.4000mm "clearline"]
 	Line[68.2000mm 50.2000mm 67.7000mm 50.7000mm 0.2000mm 0.4000mm "clearline"]
 	Line[67.2000mm 50.2000mm 66.7000mm 49.7000mm 0.2000mm 0.4000mm "clearline"]
+	Line[74.4500mm 80.1000mm 74.5000mm 80.1000mm 0.1200mm 0.4600mm "via"]
+	Line[79.6000mm 71.2000mm 79.6000mm 67.5000mm 0.1200mm 0.4600mm "clearline"]
+	Line[82.8000mm 67.5000mm 80.5000mm 67.5000mm 0.1200mm 0.4600mm "clearline"]
+	Line[80.5000mm 67.5000mm 79.9000mm 68.1000mm 0.1200mm 0.4600mm "clearline"]
+	Line[79.9000mm 68.1000mm 79.9000mm 71.3000mm 0.1200mm 0.4600mm "clearline"]
+	Line[79.9000mm 71.3000mm 77.4000mm 73.8000mm 0.1200mm 0.4600mm "clearline"]
+	Line[74.4000mm 80.1000mm 74.7000mm 79.6000mm 0.5000mm 0.4000mm "clearline"]
+	Line[75.7000mm 80.1000mm 75.4000mm 79.6000mm 0.5000mm 0.4000mm "clearline"]
+	Line[75.4000mm 79.6000mm 75.3000mm 79.3000mm 0.2000mm 0.4000mm "clearline"]
+	Line[74.7000mm 79.5000mm 74.8000mm 79.3000mm 0.2000mm 0.4000mm "clearline"]
+	Line[74.9000mm 78.6000mm 74.8000mm 79.3000mm 0.1200mm 0.4600mm "clearline"]
+	Line[75.2000mm 78.6000mm 75.3000mm 79.3000mm 0.1200mm 0.4600mm "clearline"]
+	Line[74.9000mm 78.6000mm 74.9000mm 75.9000mm 0.1200mm 0.4600mm "clearline"]
+	Line[79.6000mm 71.2000mm 74.9000mm 75.9000mm 0.1200mm 0.4600mm "clearline"]
+	Line[77.4000mm 73.8000mm 75.2000mm 76.0000mm 0.1200mm 0.4600mm "clearline"]
+	Line[75.2000mm 76.0000mm 75.2000mm 78.6000mm 0.1200mm 0.4600mm "clearline"]
+	Line[57.7000mm 61.7000mm 57.7000mm 62.3000mm 0.2000mm 0.4000mm "clearline"]
+	Line[57.7000mm 62.3000mm 58.3000mm 62.9000mm 0.1500mm 0.3600mm "clearline"]
+	Line[58.3000mm 62.9000mm 59.8000mm 62.9000mm 0.1500mm 0.3600mm "clearline"]
+	Line[59.8000mm 62.9000mm 60.4000mm 2500.00mil 0.1500mm 0.3600mm "clearline"]
+	Line[60.4000mm 2500.00mil 61.2000mm 2500.00mil 0.1500mm 0.3600mm "clearline"]
+	Line[61.2000mm 2500.00mil 61.5000mm 63.2000mm 0.1500mm 0.3600mm "clearline"]
+	Line[61.5000mm 63.2000mm 61.9000mm 63.2000mm 0.1500mm 0.3600mm "clearline"]
+	Line[57.7000mm 36.7000mm 57.2000mm 37.2000mm 0.2000mm 0.4000mm "clearline"]
 	Polygon("clearpoly")
 	(
 		[41.3000mm 68.7000mm] [63.8000mm 68.7000mm] [63.8000mm 76.3000mm] [41.3000mm 76.3000mm] 
@@ -6215,9 +6357,6 @@ Layer(2 "in1" "copper")
 	Line[34.3000mm 65.8000mm 36.1000mm 67.6000mm 0.2800mm 0.4000mm "clearline"]
 	Line[36.1000mm 67.6000mm 36.1000mm 75.0000mm 0.2800mm 0.4000mm "clearline"]
 	Line[36.1000mm 75.0000mm 37.1000mm 76.0000mm 0.2800mm 0.4000mm "clearline"]
-	Line[40.2000mm 81.2000mm 71.9000mm 81.2000mm 1.0000mm 0.5000mm "clearline"]
-	Line[71.9000mm 81.2000mm 72.6000mm 80.5000mm 1.0000mm 0.5000mm "clearline"]
-	Line[72.6000mm 80.5000mm 72.6000mm 77.3000mm 1.0000mm 0.5000mm "clearline"]
 	Line[58.7000mm 55.7000mm 59.2000mm 56.2000mm 0.2800mm 0.3000mm "clearline"]
 	Line[59.2000mm 42.2000mm 59.7000mm 42.7000mm 0.2800mm 0.3000mm "clearline"]
 	Line[59.7000mm 42.7000mm 61.6000mm 42.7000mm 0.2800mm 0.3000mm "clearline"]
@@ -6267,6 +6406,9 @@ Layer(2 "in1" "copper")
 	Line[59.5000mm 46.9000mm 62.5000mm 46.9000mm 0.5000mm 0.4000mm "clearline"]
 	Line[63.2000mm 46.2000mm 62.5000mm 46.9000mm 0.5000mm 0.4000mm "clearline"]
 	Line[61.2000mm 51.2000mm 61.2000mm 46.9000mm 0.5000mm 0.4000mm "clearline"]
+	Line[72.6000mm 77.3000mm 68.7000mm 81.2000mm 1.0000mm 0.5000mm "clearline"]
+	Line[68.7000mm 81.2000mm 40.3000mm 81.2000mm 1.0000mm 0.5000mm "clearline"]
+	Line[70.3000mm 81.0000mm 69.6000mm 80.3000mm 1.0000mm 0.5000mm "clearline"]
 	Text[78.8000mm 22.0000mm 3 90 "OWOCOMM" "clearline"]
 	Polygon("clearpoly")
 	(
@@ -6488,9 +6630,7 @@ Layer(3 "in2" "copper")
 	Line[52.7000mm 39.5000mm 52.7000mm 39.1000mm 0.1300mm 0.2600mm "clearline"]
 	Line[52.7000mm 39.1000mm 53.2000mm 38.4000mm 0.1300mm 0.2600mm "clearline"]
 	Line[56.2000mm 39.2000mm 56.8000mm 38.4000mm 0.1300mm 0.2600mm "clearline"]
-	Line[56.8000mm 38.4000mm 56.8000mm 37.1000mm 0.1300mm 0.2600mm "clearline"]
 	Line[56.2000mm 40.2000mm 56.7000mm 39.5000mm 0.1300mm 0.2600mm "clearline"]
-	Line[57.2000mm 38.4000mm 57.2000mm 37.1000mm 0.1300mm 0.2600mm "clearline"]
 	Line[56.7000mm 39.5000mm 56.7000mm 39.1000mm 0.1300mm 0.2600mm "clearline"]
 	Line[56.7000mm 39.1000mm 57.2000mm 38.4000mm 0.1300mm 0.2600mm "clearline"]
 	Line[55.2000mm 38.2000mm 56.2000mm 38.2000mm 0.2800mm 0.3000mm "clearline"]
@@ -6940,15 +7080,12 @@ Layer(3 "in2" "copper")
 	Line[58.7000mm 58.1000mm 59.0000mm 58.4000mm 0.1200mm 0.3600mm "clearline"]
 	Line[59.0000mm 58.4000mm 59.5000mm 58.5000mm 0.1200mm 0.3600mm "clearline"]
 	Line[59.5000mm 58.5000mm 59.9000mm 58.8000mm 0.1200mm 0.3600mm "clearline"]
-	Line[59.9000mm 58.8000mm 61.2000mm 61.8000mm 0.1200mm 0.3600mm "clearline"]
-	Line[61.2000mm 61.8000mm 62.0000mm 62.4000mm 0.1200mm 0.3600mm "clearline"]
-	Line[62.0000mm 62.4000mm 63.3000mm 62.6000mm 0.1200mm 0.3600mm "clearline"]
+	Line[59.9000mm 58.8000mm 60.3000mm 59.6000mm 0.1200mm 0.3600mm "clearline"]
 	Line[63.3000mm 62.6000mm 2500.00mil 62.7000mm 0.1200mm 0.3600mm "clearline"]
 	Line[64.4000mm 63.2000mm 63.8000mm 62.5000mm 0.1200mm 0.3600mm "clearline"]
 	Line[63.8000mm 62.5000mm 63.2000mm 62.2000mm 0.1200mm 0.3600mm "clearline"]
-	Line[63.2000mm 62.2000mm 62.2000mm 62.1000mm 0.1200mm 0.3600mm "clearline"]
-	Line[62.2000mm 62.1000mm 61.5000mm 61.6000mm 0.1200mm 0.3600mm "clearline"]
-	Line[61.5000mm 61.6000mm 60.2000mm 58.6000mm 0.1200mm 0.3600mm "clearline"]
+	Line[63.2000mm 62.2000mm 62.8000mm 62.1000mm 0.1200mm 0.3600mm "clearline"]
+	Line[60.6000mm 59.5000mm 60.2000mm 58.6000mm 0.1200mm 0.3600mm "clearline"]
 	Line[60.2000mm 58.6000mm 59.5000mm 58.1000mm 0.1200mm 0.3600mm "clearline"]
 	Line[59.5000mm 58.1000mm 59.0000mm 58.0000mm 0.1200mm 0.3600mm "clearline"]
 	Line[2500.00mil 62.7000mm 63.7000mm 62.9000mm 0.1200mm 0.3600mm "clearline"]
@@ -7216,8 +7353,8 @@ Layer(3 "in2" "copper")
 	Line[74.2000mm 71.7000mm 74.2000mm 71.1000mm 1.4000mm 0.5000mm "clearline"]
 	Line[72.1000mm 61.8000mm 72.1000mm 77.2000mm 0.1200mm 0.3600mm "clearline"]
 	Line[72.4000mm 61.7000mm 72.4000mm 77.3000mm 0.1200mm 0.3600mm "clearline"]
-	Line[72.7000mm 61.6000mm 72.7000mm 77.4000mm 0.1200mm 0.3600mm "clearline"]
-	Line[73.0000mm 61.5000mm 73.0000mm 77.5000mm 0.1200mm 0.3600mm "clearline"]
+	Line[72.7000mm 61.6000mm 72.7000mm 72.9000mm 0.1200mm 0.3600mm "clearline"]
+	Line[73.0000mm 61.5000mm 73.0000mm 72.7000mm 0.1200mm 0.3600mm "clearline"]
 	Line[30.1000mm 38.2000mm 30.4000mm 38.5000mm 0.1200mm 0.3600mm "clearline"]
 	Line[30.4000mm 43.4000mm 30.4000mm 38.5000mm 0.1200mm 0.3600mm "clearline"]
 	Line[30.1000mm 38.2000mm 28.5000mm 38.2000mm 0.1200mm 0.3600mm "clearline"]
@@ -7495,6 +7632,17 @@ Layer(3 "in2" "copper")
 	Line[72.1000mm 78.0000mm 72.1000mm 77.2000mm 0.1200mm 0.4600mm "clearline"]
 	Line[72.4000mm 77.3000mm 72.4000mm 78.1000mm 0.1200mm 0.4600mm "clearline"]
 	Line[72.4000mm 78.1000mm 70.5000mm 80.0000mm 0.1200mm 0.4600mm "clearline"]
+	Line[73.0000mm 72.7000mm 73.5000mm 73.2000mm 0.1200mm 0.4600mm "clearline"]
+	Line[72.7000mm 72.9000mm 73.3000mm 73.5000mm 0.1200mm 0.4600mm "clearline"]
+	Line[73.5000mm 73.2000mm 79.4000mm 73.2000mm 0.1200mm 0.4600mm "clearline"]
+	Line[79.4000mm 73.2000mm 79.6000mm 73.0000mm 0.1200mm 0.4600mm "clearline"]
+	Line[81.1000mm 73.0000mm 79.9000mm 74.2000mm 0.1200mm 0.4600mm "clearline"]
+	Line[79.9000mm 74.2000mm 79.4000mm 74.2000mm 0.1200mm 0.4600mm "clearline"]
+	Line[79.4000mm 74.2000mm 78.7000mm 73.5000mm 0.1200mm 0.4600mm "clearline"]
+	Line[78.7000mm 73.5000mm 73.3000mm 73.5000mm 0.1200mm 0.4600mm "clearline"]
+	Line[60.6000mm 59.5000mm 62.8000mm 62.1000mm 0.1200mm 0.3600mm "clearline"]
+	Line[63.3000mm 62.6000mm 62.7000mm 62.4000mm 0.1200mm 0.3600mm "clearline"]
+	Line[62.7000mm 62.4000mm 60.3000mm 59.6000mm 0.1200mm 0.3600mm "clearline"]
 	Polygon("clearpoly")
 	(
 		[34.3000mm 25.6000mm] [44.4000mm 25.6000mm] [44.4000mm 20.5000mm] [34.3000mm 20.5000mm] 
@@ -7789,18 +7937,14 @@ Layer(6 "bottom" "copper")
 	Line[47.2000mm 64.0000mm 47.4000mm 64.5000mm 0.1500mm 0.3600mm "clearline"]
 	Line[46.8000mm 63.6000mm 46.8000mm 64.0000mm 0.1500mm 0.3600mm "clearline"]
 	Line[46.8000mm 64.0000mm 46.4000mm 64.5000mm 0.1500mm 0.3600mm "clearline"]
-	Line[56.8000mm 60.0000mm 57.3000mm 62.2000mm 0.1500mm 0.3600mm "clearline"]
-	Line[57.2000mm 60.0000mm 57.6000mm 62.1000mm 0.1500mm 0.3600mm "clearline"]
-	Line[57.6000mm 62.1000mm 57.8000mm 62.5000mm 0.1500mm 0.3600mm "clearline"]
-	Line[57.8000mm 62.5000mm 58.1000mm 62.7000mm 0.1500mm 0.3600mm "clearline"]
-	Line[57.3000mm 62.2000mm 57.5000mm 62.7000mm 0.1500mm 0.3600mm "clearline"]
-	Line[57.5000mm 62.7000mm 57.9000mm 63.0000mm 0.1500mm 0.3600mm "clearline"]
-	Line[57.9000mm 63.0000mm 60.1000mm 63.9000mm 0.1500mm 0.3600mm "clearline"]
+	Line[56.8000mm 60.0000mm 57.4000mm 61.7000mm 0.1500mm 0.3600mm "clearline"]
+	Line[57.2000mm 60.0000mm 57.8000mm 61.7000mm 0.1500mm 0.3600mm "clearline"]
+	Line[58.4000mm 63.2000mm 60.1000mm 63.9000mm 0.1500mm 0.3600mm "clearline"]
 	Line[60.1000mm 63.9000mm 60.3000mm 64.1000mm 0.1500mm 0.3600mm "clearline"]
 	Line[60.3000mm 64.1000mm 60.3000mm 64.3000mm 0.1500mm 0.3600mm "clearline"]
 	Line[60.3000mm 64.3000mm 60.2000mm 64.4000mm 0.1500mm 0.3600mm "clearline"]
 	Line[60.2000mm 64.4000mm 59.7000mm 64.5000mm 0.1500mm 0.3600mm "clearline"]
-	Line[58.1000mm 62.7000mm 60.3000mm 63.6000mm 0.1500mm 0.3600mm "clearline"]
+	Line[58.6000mm 62.9000mm 60.3000mm 63.6000mm 0.1500mm 0.3600mm "clearline"]
 	Line[60.3000mm 63.6000mm 60.6000mm 63.9000mm 0.1500mm 0.3600mm "clearline"]
 	Line[60.6000mm 63.9000mm 60.6000mm 64.2000mm 0.1500mm 0.3600mm "clearline"]
 	Line[60.6000mm 64.2000mm 60.7000mm 64.3000mm 0.1500mm 0.3600mm "clearline"]
@@ -7938,7 +8082,7 @@ Layer(6 "bottom" "copper")
 	Line[53.9000mm 60.2000mm 54.7000mm 61.0000mm 0.1500mm 0.3600mm "clearline"]
 	Line[49.2000mm 59.2000mm 48.7000mm 59.6000mm 0.4000mm 0.4000mm "clearline"]
 	Line[57.2000mm 39.2000mm 58.0000mm 39.2000mm 0.5000mm 0.4000mm "clearline"]
-	Line[60.9000mm 62.8000mm 61.0000mm 62.0000mm 0.5000mm 0.4000mm "clearline"]
+	Line[60.9000mm 62.8000mm 60.0000mm 62.4000mm 0.5000mm 0.4000mm "clearline"]
 	Line[54.7000mm 61.0000mm 54.7000mm 61.6000mm 0.1500mm 0.3600mm "clearline"]
 	Line[54.7000mm 61.6000mm 55.8000mm 63.6000mm 0.1500mm 0.3600mm "clearline"]
 	Line[55.0000mm 60.8000mm 55.0000mm 61.5000mm 0.1500mm 0.3600mm "clearline"]
@@ -8217,6 +8361,26 @@ Layer(6 "bottom" "copper")
 	Line[63.2000mm 48.2000mm 63.2000mm 48.7000mm 0.2800mm 0.4000mm "clearline"]
 	Line[62.1000mm 49.0000mm 63.2000mm 48.7000mm 0.2800mm 0.4000mm "clearline"]
 	Line[60.4000mm 58.3000mm 60.4000mm 56.7000mm 0.6800mm 0.4000mm "clearline"]
+	Line[79.6000mm 73.0000mm 80.2000mm 73.0000mm 0.2800mm 0.4000mm "clearline"]
+	Line[81.1000mm 73.0000mm 81.8000mm 73.0000mm 0.2800mm 0.4000mm "clearline"]
+	Line[80.2000mm 72.0000mm 80.2000mm 70.8000mm 0.2800mm 0.4000mm "clearline"]
+	Line[80.2000mm 70.8000mm 80.3000mm 70.7000mm 0.2800mm 0.4000mm "clearline"]
+	Line[81.8000mm 72.0000mm 81.8000mm 70.7000mm 0.2800mm 0.4000mm "clearline"]
+	Line[80.4000mm 69.1000mm 80.4000mm 67.5000mm 0.2800mm 0.4000mm "clearline"]
+	Line[80.4000mm 67.5000mm 79.6000mm 67.5000mm 0.2800mm 0.4000mm "clearline"]
+	Line[82.0000mm 69.1000mm 82.0000mm 67.5000mm 0.2800mm 0.4000mm "clearline"]
+	Line[82.0000mm 67.5000mm 82.8000mm 67.5000mm 0.2800mm 0.4000mm "clearline"]
+	Line[58.6000mm 62.9000mm 58.3000mm 62.6000mm 0.1500mm 0.3600mm "clearline"]
+	Line[58.3000mm 62.6000mm 57.8000mm 61.7000mm 0.1500mm 0.3600mm "clearline"]
+	Line[58.4000mm 63.2000mm 58.0000mm 62.8000mm 0.1500mm 0.3600mm "clearline"]
+	Line[58.0000mm 62.8000mm 57.4000mm 61.7000mm 0.1500mm 0.3600mm "clearline"]
+	Line[60.9000mm 62.8000mm 61.4000mm 62.2000mm 0.2800mm 0.4000mm "clearline"]
+	Line[61.9000mm 63.2000mm 62.2000mm 62.8000mm 0.2800mm 0.4000mm "clearline"]
+	Line[57.5000mm 35.7000mm 57.1000mm 35.5000mm 0.2800mm 0.4000mm "clearline"]
+	Line[57.1000mm 35.5000mm 56.3000mm 35.5000mm 0.2800mm 0.4000mm "clearline"]
+	Line[57.2000mm 37.2000mm 56.6000mm 36.7000mm 0.2800mm 0.4000mm "clearline"]
+	Line[56.6000mm 36.7000mm 56.0000mm 36.5000mm 0.2800mm 0.4000mm "clearline"]
+	Line[56.0000mm 36.5000mm 55.5000mm 36.1000mm 0.2800mm 0.4000mm "clearline"]
 	Polygon("clearpoly")
 	(
 		[45.6000mm 49.3000mm] [2000.00mil 49.3000mm] [2000.00mil 42.6000mm] [45.6000mm 42.6000mm] 
@@ -8454,6 +8618,16 @@ NetList()
 	(
 		Connect("U1-A2")
 		Connect("U2-T7")
+	)
+	Net("AUDIO-L" "(unknown)")
+	(
+		Connect("R216-2")
+		Connect("U1-T25")
+	)
+	Net("AUDIO-R" "(unknown)")
+	(
+		Connect("R217-2")
+		Connect("U1-R25")
 	)
 	Net("BA0" "(unknown)")
 	(
@@ -8746,6 +8920,8 @@ NetList()
 		Connect("C302-1")
 		Connect("C303-2")
 		Connect("C306-2")
+		Connect("C309-2")
+		Connect("C310-2")
 		Connect("CONN2-0")
 		Connect("CONN2-1")
 		Connect("CONN3-1")
@@ -8768,6 +8944,9 @@ NetList()
 		Connect("CONN210-A12")
 		Connect("CONN210-B1")
 		Connect("CONN210-B12")
+		Connect("CONN211-1")
+		Connect("CONN211-2")
+		Connect("CONN212-1")
 		Connect("J201-1")
 		Connect("J201-4")
 		Connect("J201-7")
@@ -9352,72 +9531,82 @@ NetList()
 	)
 	Net("unnamed_net3" "(unknown)")
 	(
-		Connect("U1-P11")
+		Connect("R218-2")
+		Connect("U1-A15")
 	)
 	Net("unnamed_net4" "(unknown)")
 	(
-		Connect("U1-N12")
+		Connect("R219-2")
+		Connect("U1-AF15")
 	)
 	Net("unnamed_net5" "(unknown)")
+	(
+		Connect("U1-P11")
+	)
+	Net("unnamed_net6" "(unknown)")
+	(
+		Connect("U1-N12")
+	)
+	Net("unnamed_net7" "(unknown)")
 	(
 		Connect("R1-1")
 		Connect("U1-W10")
 	)
-	Net("unnamed_net6" "(unknown)")
+	Net("unnamed_net8" "(unknown)")
 	(
 		Connect("R3-2")
 		Connect("U1-V11")
 	)
-	Net("unnamed_net7" "(unknown)")
+	Net("unnamed_net9" "(unknown)")
 	(
 		Connect("U1-AB7")
 	)
-	Net("unnamed_net8" "(unknown)")
+	Net("unnamed_net10" "(unknown)")
 	(
 		Connect("R2-2")
 		Connect("U1-AE16")
 	)
-	Net("unnamed_net9" "(unknown)")
+	Net("unnamed_net11" "(unknown)")
 	(
 		Connect("R201-2")
 		Connect("U2-M8")
 	)
-	Net("unnamed_net10" "(unknown)")
+	Net("unnamed_net12" "(unknown)")
 	(
 		Connect("R202-2")
 		Connect("U2-H1")
 	)
-	Net("unnamed_net11" "(unknown)")
+	Net("unnamed_net13" "(unknown)")
 	(
 		Connect("R23-2")
 		Connect("U2-L8")
 	)
-	Net("unnamed_net12" "(unknown)")
+	Net("unnamed_net14" "(unknown)")
 	(
 		Connect("R204-2")
 		Connect("U1-M5")
 	)
-	Net("unnamed_net13" "(unknown)")
+	Net("unnamed_net15" "(unknown)")
 	(
 		Connect("R203-2")
 		Connect("U1-P5")
 	)
-	Net("unnamed_net14" "(unknown)")
+	Net("unnamed_net16" "(unknown)")
 	(
 		Connect("LED99-1")
 		Connect("R1-2")
 	)
-	Net("unnamed_net15" "(unknown)")
+	Net("unnamed_net17" "(unknown)")
 	(
 		Connect("R213-1")
 		Connect("U201-6")
 	)
-	Net("unnamed_net16" "(unknown)")
+	Net("unnamed_net18" "(unknown)")
 	(
 		Connect("C204-1")
 		Connect("U202-1")
 	)
-	Net("unnamed_net17" "(unknown)")
+	Net("unnamed_net19" "(unknown)")
 	(
 		Connect("C204-2")
 		Connect("L201-1")
@@ -9425,297 +9614,321 @@ NetList()
 		Connect("U202-19")
 		Connect("U202-20")
 	)
-	Net("unnamed_net18" "(unknown)")
+	Net("unnamed_net20" "(unknown)")
 	(
 		Connect("C103-2")
 		Connect("R101-2")
 		Connect("R102-1")
 		Connect("U202-14")
 	)
-	Net("unnamed_net19" "(unknown)")
+	Net("unnamed_net21" "(unknown)")
 	(
 		Connect("C208-1")
 		Connect("U202-17")
 	)
-	Net("unnamed_net20" "(unknown)")
+	Net("unnamed_net22" "(unknown)")
 	(
 		Connect("B12-1")
 		Connect("B13-2")
 		Connect("U4-18")
 	)
-	Net("unnamed_net21" "(unknown)")
+	Net("unnamed_net23" "(unknown)")
 	(
 		Connect("R15-2")
 		Connect("U4-17")
 	)
-	Net("unnamed_net22" "(unknown)")
+	Net("unnamed_net24" "(unknown)")
 	(
 		Connect("CONN2-4")
 		Connect("U4-14")
 	)
-	Net("unnamed_net23" "(unknown)")
+	Net("unnamed_net25" "(unknown)")
 	(
 		Connect("CONN2-3")
 		Connect("U4-13")
 	)
-	Net("unnamed_net24" "(unknown)")
+	Net("unnamed_net26" "(unknown)")
 	(
 		Connect("C82-2")
 		Connect("U4-23")
 	)
-	Net("unnamed_net25" "(unknown)")
+	Net("unnamed_net27" "(unknown)")
 	(
 		Connect("R27-1")
 		Connect("U4-19")
 	)
-	Net("unnamed_net26" "(unknown)")
+	Net("unnamed_net28" "(unknown)")
 	(
 		Connect("B13-1")
 		Connect("CONN2-2")
 	)
-	Net("unnamed_net27" "(unknown)")
+	Net("unnamed_net29" "(unknown)")
 	(
 		Connect("L111-1")
 		Connect("U111-3")
 	)
-	Net("unnamed_net28" "(unknown)")
+	Net("unnamed_net30" "(unknown)")
 	(
 		Connect("C113-2")
 		Connect("R111-2")
 		Connect("R112-1")
 		Connect("U111-6")
 	)
-	Net("unnamed_net29" "(unknown)")
+	Net("unnamed_net31" "(unknown)")
 	(
 		Connect("L121-1")
 		Connect("U121-3")
 	)
-	Net("unnamed_net30" "(unknown)")
+	Net("unnamed_net32" "(unknown)")
 	(
 		Connect("C123-2")
 		Connect("R121-2")
 		Connect("R122-1")
 		Connect("U121-6")
 	)
-	Net("unnamed_net31" "(unknown)")
+	Net("unnamed_net33" "(unknown)")
 	(
 		Connect("L131-1")
 		Connect("U131-3")
 	)
-	Net("unnamed_net32" "(unknown)")
+	Net("unnamed_net34" "(unknown)")
 	(
 		Connect("C133-2")
 		Connect("R131-2")
 		Connect("R132-1")
 		Connect("U131-6")
 	)
-	Net("unnamed_net33" "(unknown)")
+	Net("unnamed_net35" "(unknown)")
 	(
 		Connect("L141-1")
 		Connect("U141-3")
 	)
-	Net("unnamed_net34" "(unknown)")
+	Net("unnamed_net36" "(unknown)")
 	(
 		Connect("C143-2")
 		Connect("R141-2")
 		Connect("R142-1")
 		Connect("U141-6")
 	)
-	Net("unnamed_net35" "(unknown)")
+	Net("unnamed_net37" "(unknown)")
 	(
 		Connect("L151-1")
 		Connect("U151-3")
 	)
-	Net("unnamed_net36" "(unknown)")
+	Net("unnamed_net38" "(unknown)")
 	(
 		Connect("C153-2")
 		Connect("R151-2")
 		Connect("R152-1")
 		Connect("U151-6")
 	)
-	Net("unnamed_net37" "(unknown)")
+	Net("unnamed_net39" "(unknown)")
 	(
 		Connect("CONN201-1")
 		Connect("T201-3")
 	)
-	Net("unnamed_net38" "(unknown)")
+	Net("unnamed_net40" "(unknown)")
 	(
 		Connect("C258-1")
 		Connect("T201-6")
 	)
-	Net("unnamed_net39" "(unknown)")
+	Net("unnamed_net41" "(unknown)")
 	(
 		Connect("C259-1")
 		Connect("T201-4")
 	)
-	Net("unnamed_net40" "(unknown)")
+	Net("unnamed_net42" "(unknown)")
 	(
 		Connect("CONN202-1")
 		Connect("T202-1")
 	)
-	Net("unnamed_net41" "(unknown)")
+	Net("unnamed_net43" "(unknown)")
 	(
 		Connect("C260-1")
 		Connect("T202-6")
 	)
-	Net("unnamed_net42" "(unknown)")
+	Net("unnamed_net44" "(unknown)")
 	(
 		Connect("C261-1")
 		Connect("T202-4")
 	)
-	Net("unnamed_net43" "(unknown)")
+	Net("unnamed_net45" "(unknown)")
 	(
 		Connect("CONN203-1")
 		Connect("T203-3")
 	)
-	Net("unnamed_net44" "(unknown)")
+	Net("unnamed_net46" "(unknown)")
 	(
 		Connect("C262-1")
 		Connect("T203-6")
 	)
-	Net("unnamed_net45" "(unknown)")
+	Net("unnamed_net47" "(unknown)")
 	(
 		Connect("C263-1")
 		Connect("T203-4")
 	)
-	Net("unnamed_net46" "(unknown)")
+	Net("unnamed_net48" "(unknown)")
 	(
 		Connect("CONN204-1")
 		Connect("T204-1")
 	)
-	Net("unnamed_net47" "(unknown)")
+	Net("unnamed_net49" "(unknown)")
 	(
 		Connect("C264-1")
 		Connect("T204-6")
 	)
-	Net("unnamed_net48" "(unknown)")
+	Net("unnamed_net50" "(unknown)")
 	(
 		Connect("C265-1")
 		Connect("T204-4")
 	)
-	Net("unnamed_net49" "(unknown)")
+	Net("unnamed_net51" "(unknown)")
 	(
 		Connect("CONN205-1")
 		Connect("T205-3")
 	)
-	Net("unnamed_net50" "(unknown)")
+	Net("unnamed_net52" "(unknown)")
 	(
 		Connect("C266-1")
 		Connect("T205-6")
 	)
-	Net("unnamed_net51" "(unknown)")
+	Net("unnamed_net53" "(unknown)")
 	(
 		Connect("C267-1")
 		Connect("T205-4")
 	)
-	Net("unnamed_net52" "(unknown)")
+	Net("unnamed_net54" "(unknown)")
 	(
 		Connect("CONN206-1")
 		Connect("T206-1")
 	)
-	Net("unnamed_net53" "(unknown)")
+	Net("unnamed_net55" "(unknown)")
 	(
 		Connect("C268-1")
 		Connect("T206-6")
 	)
-	Net("unnamed_net54" "(unknown)")
+	Net("unnamed_net56" "(unknown)")
 	(
 		Connect("C269-1")
 		Connect("T206-4")
 	)
-	Net("unnamed_net55" "(unknown)")
+	Net("unnamed_net57" "(unknown)")
 	(
 		Connect("CONN207-1")
 		Connect("T207-3")
 	)
-	Net("unnamed_net56" "(unknown)")
+	Net("unnamed_net58" "(unknown)")
 	(
 		Connect("C270-1")
 		Connect("T207-6")
 	)
-	Net("unnamed_net57" "(unknown)")
+	Net("unnamed_net59" "(unknown)")
 	(
 		Connect("C271-1")
 		Connect("T207-4")
 	)
-	Net("unnamed_net58" "(unknown)")
+	Net("unnamed_net60" "(unknown)")
 	(
 		Connect("CONN208-1")
 		Connect("T208-1")
 	)
-	Net("unnamed_net59" "(unknown)")
+	Net("unnamed_net61" "(unknown)")
 	(
 		Connect("C272-1")
 		Connect("T208-6")
 	)
-	Net("unnamed_net60" "(unknown)")
+	Net("unnamed_net62" "(unknown)")
 	(
 		Connect("C273-1")
 		Connect("T208-4")
 	)
-	Net("unnamed_net61" "(unknown)")
+	Net("unnamed_net63" "(unknown)")
 	(
 		Connect("C275-2")
 		Connect("U5-3")
 	)
-	Net("unnamed_net62" "(unknown)")
+	Net("unnamed_net64" "(unknown)")
 	(
 		Connect("C77-1")
 		Connect("R19-2")
 		Connect("U5-4")
 	)
-	Net("unnamed_net63" "(unknown)")
+	Net("unnamed_net65" "(unknown)")
 	(
 		Connect("C276-2")
 		Connect("U203-3")
 	)
-	Net("unnamed_net64" "(unknown)")
+	Net("unnamed_net66" "(unknown)")
 	(
 		Connect("C231-1")
 		Connect("R210-2")
 		Connect("U203-4")
 	)
-	Net("unnamed_net65" "(unknown)")
+	Net("unnamed_net67" "(unknown)")
 	(
 		Connect("C305-2")
 		Connect("T209-2")
 	)
-	Net("unnamed_net66" "(unknown)")
+	Net("unnamed_net68" "(unknown)")
 	(
 		Connect("C304-2")
 		Connect("T209-4")
 	)
-	Net("unnamed_net67" "(unknown)")
+	Net("unnamed_net69" "(unknown)")
 	(
 		Connect("T209-3")
 		Connect("U204-3")
 	)
-	Net("unnamed_net68" "(unknown)")
+	Net("unnamed_net70" "(unknown)")
 	(
 		Connect("C303-1")
 		Connect("R214-2")
 		Connect("U204-4")
 	)
-	Net("unnamed_net69" "(unknown)")
+	Net("unnamed_net71" "(unknown)")
 	(
 		Connect("C308-2")
 		Connect("T210-2")
 	)
-	Net("unnamed_net70" "(unknown)")
+	Net("unnamed_net72" "(unknown)")
 	(
 		Connect("T210-1")
 		Connect("U205-3")
 	)
-	Net("unnamed_net71" "(unknown)")
+	Net("unnamed_net73" "(unknown)")
 	(
 		Connect("C307-2")
 		Connect("T210-4")
 	)
-	Net("unnamed_net72" "(unknown)")
+	Net("unnamed_net74" "(unknown)")
 	(
 		Connect("C306-1")
 		Connect("R215-2")
 		Connect("U205-4")
+	)
+	Net("unnamed_net75" "(unknown)")
+	(
+		Connect("C309-1")
+		Connect("CONN211-3")
+		Connect("CONN212-2")
+		Connect("L204-2")
+	)
+	Net("unnamed_net76" "(unknown)")
+	(
+		Connect("C310-1")
+		Connect("CONN211-4")
+		Connect("CONN212-3")
+		Connect("L205-2")
+	)
+	Net("unnamed_net77" "(unknown)")
+	(
+		Connect("L204-1")
+		Connect("R216-1")
+	)
+	Net("unnamed_net78" "(unknown)")
+	(
+		Connect("L205-1")
+		Connect("R217-1")
 	)
 	Net("VCC1" "(unknown)")
 	(
@@ -9775,6 +9988,8 @@ NetList()
 		Connect("C281-1")
 		Connect("L151-2")
 		Connect("R152-2")
+		Connect("R218-1")
+		Connect("R219-1")
 		Connect("U1-AD7")
 		Connect("U1-AD15")
 		Connect("U1-AE8")
