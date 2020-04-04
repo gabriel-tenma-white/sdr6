@@ -4554,7 +4554,7 @@ refdes=CONN209
 T 91800 52050 5 10 0 0 180 6 1
 device=CONNECTOR_8
 T 91400 51750 5 10 1 1 180 6 1
-footprint=edgepads_2mm_8
+footprint=connector8
 }
 C 91200 54800 1 270 1 gnd-1.sym
 C 91200 54000 1 270 1 gnd-1.sym
